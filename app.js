@@ -6,7 +6,7 @@ const path = require('path');
  
 //读取证书
 const privateKey = fs.readFileSync(path.resolve(__dirname, '106.52.121.47_key.txt'), 'utf8')
-const certificate = fs.readFileSync(path.resolve(__dirname, '106.52.121.47_csr.txt'), 'utf8')
+const certificate = fs.readFileSync(path.resolve(__dirname, '106.52.121.47_ssl.crt'), 'utf8')
  
 // 创建 express 应用
 const app = express()
